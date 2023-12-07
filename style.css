@@ -1169,6 +1169,8 @@ details[open] div{
   font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Making columns under the histort section responsive*/
 @media screen and (max-width:1500px){
   .column-history{
     width:100%;
@@ -1186,6 +1188,8 @@ details[open] div{
 
 
 }
+
+/*end of .responsiveness*/
 
 
 
@@ -1680,7 +1684,7 @@ details[open] div{
 .imageGrid .tile :hover .textWrapper .content h2 {
   margin: 0;
 }
-
+  /* MAKING THE IMAGE GRID UNDER HISTORY SECTION RESPONSIVE*/
 @media (max-width: 1000px) {
   .imageGrid .tile1,.tile2,.tile3,.tile4,.tile5,.tile6 {
     width: 50%;
@@ -1693,6 +1697,9 @@ details[open] div{
   }
 
 }
+
+/* END OF RESPONSIVENESS UNDER VOLUNTEERS SECTION*.about*/
+
 /* Our priorities and insights webpage*/
 
 .priorities {
@@ -2502,7 +2509,7 @@ div.gallery .solution-images-p {
 
    .column-goal .team-work2{
      font-size: 15px;
-     font-family: 'PlayPen Sans',cursive;
+     font-family: 'Playpen Sans',cursive;
      margin: auto;
        /* text-align: center; */
       width: 130%; 
@@ -2577,7 +2584,7 @@ div.gallery .solution-images-p {
        /* text-align: center; */
       width: 100%; 
       padding: auto;
-     font-family: 'Playpen Sans', cursive;
+     font-family: 'Playpen Sans', sans-serif;
      font-size: 15px;
    }
 
@@ -3031,6 +3038,10 @@ div.gallery .solution-images-p {
 
   }
 
+  .slideshow-container{
+    height:300px;
+  }
+
  
 
  
@@ -3094,6 +3105,8 @@ div.gallery .solution-images-p {
 }
 
 @media screen and (max-width:480px){
+
+
   .responsive-p {
      width: 100%;
      margin: 6px 0;
@@ -3128,9 +3141,75 @@ div.gallery .solution-images-p {
   }
 
 
+  /* priorities and insights*display*/
+  .container-goals .goal-sub{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .column-goal .text-work1 .team-work2{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-in .column-in .text-work-in .team-work2-in{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .experience .column-experience .text-work-in .team-work2-in{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .history-grid .column-in .text-work-in .team-work2-in{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-history .values-sub{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container .sub-test{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container .green{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-image .fancy,.fancy2{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-stepping .i,.i-step{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container .solutions h1,p,.desc{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .containter h2,a{
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .container-membership .benefit-button span a{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .help-us .column-help .design p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .slideshow-container{
+    height:200px;
+  }
+
+  .help-us .column-help .design {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
 
   
-/* our work page*/
+  /* our work page*/
   .container .team{
      padding:auto;
      margin:auto;
@@ -3155,6 +3234,10 @@ div.gallery .solution-images-p {
   .container .sub-intro{
     width:100%;
     font-size:20px;
+  }
+
+  .sub-intro{
+    font-family: 'Montserrat', sans-serif;
   }
   .container-agency .column-a{
     height:auto;
@@ -3223,7 +3306,7 @@ div.gallery .solution-images-p {
        /* text-align: center; */
       width: 100%; 
       padding: auto;
-     font-family: 'Playpen Sans', cursive;
+     font-family: 'Montserrat', sans-serif;
      font-size: 14px;
    }
 
@@ -3273,14 +3356,23 @@ div.gallery .solution-images-p {
     width:100%;  
   }
 
+  .numbers .row-numbers .column-numbers .rank-text{
+    font-family: 'Montserrat', sans-serif;
+  }
+
   .experience .row-experience .column-experience{
     width:100%;
+  }
+
+  .container-agency .team-work2-a{
+    font-family: 'Montserrat', sans-serif;
   }
 
   .experience .row-experience .column-experience .volunteer-experience{
     width:300px;
     height:300px;
     border-radius:20%;
+    
   }
 
   
@@ -3391,7 +3483,7 @@ div.gallery .solution-images-p {
 
   .con-container .shade .blackboard:before{
      content: "Contact Us";
-     font-family: 'Playpen Sans', cursive;
+    font-family: 'Montserrat', sans-serif;
      font-size: 20px;
     padding:auto;
     margin:auto;
