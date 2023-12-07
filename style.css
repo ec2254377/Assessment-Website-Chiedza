@@ -8,6 +8,17 @@
 /* dark-green: #014034*/
 /* sage green: #B1C9A7*/
 /* black:#00000*/
+/* different shade of black:#141414*/
+/* grey: #f1f1f1*/
+/* light-green:#04AA6D*/
+/* light-grey:#CBCACA*/
+/*lime:#d6f8d6;*/
+/* lighter shade grey : #cccccc*.about*/
+/* darker shade grey : #7777777 */
+/* light-brown : #c9ad86;*/
+/* different shade of light brown :#b19876*/
+
+
 
 html {
   height: 100%;
@@ -60,14 +71,14 @@ body{
 
 .dropdown-content a:hover {
   background-color: #ffffff;
-  color: black;
+  color: #000000;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
- 
+ /* MAKING COLUMNS WITH CLASS column-66 RESPONSIVE*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -91,63 +102,6 @@ body{
  
   
 }
-
-@media screen and (max-width: 992px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav a {
-    padding: 10px;
-  }
-
-  .dropdown .dropbtn {
-    padding: 10px;
-  }
-
-
-  .container-stepping{
-    background-color:#f1f1f1;
-    word-wrap: break-word;
-    height:auto;
-  }
-
-  .container-image .fancy{
-    margin-left:auto;
-    margin-right:auto;
-    width: 200px;
-    height: 200px;
-  }
-
-  .container-image .fancy2{
-    margin:auto;
-    width:300px;
-    height:300px;
-    font-size:medium;
-    border-radius:0%;
-    text-align:center;
-    word-wrap: break-word;
-    padding:1em;
-  }
-
-  .container .row .column-66 .column{
-    width: 100%;
-  }
-  .container{
-    width: 100%;
-    word-wrap: break-word;
-  }
-
-  .solutions{
-    font-size:10px;
-  }
-}
-  
-  
 
 
 @media screen and (max-width: 700px) {
@@ -170,53 +124,12 @@ body{
   
 }
 
-@media screen and (max-width: 992px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
 
 
-.topnav img{
-  width:24px;
-  height:24px;
-}
+
+
+
+
    /* stepping up progress*/
 .container-stepping{
   background-color:#f1f1f1;
@@ -293,7 +206,7 @@ body{
 .bg-overlay {
     position: absolute;
     
-    background-color: #000;
+    background-color: #000000;
     opacity: 0.6;
     z-index: -9;
 }
@@ -383,7 +296,7 @@ hr{
 
 .button {
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -392,16 +305,7 @@ hr{
 
 
 
-@media screen and (max-width: 1000px) {
-  .column-66,
-  .column-33 {
-    width: 100%;
-    text-align: center;
-  }
 
-  
-  
-}
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -423,28 +327,13 @@ hr{
 .fancy {
 
   font-family: 'Playpen Sans', cursive;
-  /* Within a circle, centered text looks prettier. */
+  
   text-align:center;
-
-  /* Let's avoid our text touching the border. As
-     our text will still flow in a square, it looks
-     nicer that way, giving the feeling that it's a "real"
-     circle. */
   padding: 2em;
-
-  /* The border will make the circle visible.
-     You could also use a background, as
-     backgrounds are clipped by border radius */
   border: 0.5em solid #3E7C59 ;
-  background-color:lightgrey;
-
-  /* Let's make sure we have a square.
-     If it's not a square, we'll get an
-     ellipsis rather than a circle */
+  background-color:#CBCACA;
   width: 15em;
   height: 13em;
-
-  /* and let's turn the square into a circle */
   border-radius: 100%;
 }
 
@@ -452,28 +341,15 @@ hr{
 
   font-family: 'Playpen Sans', cursive;
   margin-left:200px;
-  /* Within a circle, centered text looks prettier. */
+ 
   text-align:center;
-
-  /* Let's avoid our text touching the border. As
-     our text will still flow in a square, it looks
-     nicer that way, giving the feeling that it's a "real"
-     circle. */
   padding: 8em;
-
-  /* The border will make the circle visible.
-     You could also use a background, as
-     backgrounds are clipped by border radius */
   border: 0.5em solid#3E7C59 ;
-  background-color:lightgrey;
-
-  /* Let's make sure we have a square.
-     If it's not a square, we'll get an
-     ellipsis rather than a circle */
+  background-color:#CBCACA;
   width: 35em;
   height: 30em;
 
-  /* and let's turn the square into a circle */
+  
   border-radius: 100%;
 }
 
@@ -534,7 +410,7 @@ hr{
     color: #3E7C59;
 }
 .card-item h3 {
-    color: #000;
+    color: #000000;
     font-size: 1.438rem;
     margin-top: 28px;
     font-weight: 600;
@@ -546,15 +422,15 @@ hr{
     transform: rotate(-35deg);
     height: 40px;
     width: 40px;
-    color: #000;
-    border: 1px solid #000;
+    color: #000000;
+    border: 1px solid #000000;
     border-radius: 50%;
     margin-top: 40px;
     transition: 0.2s ease;
 }
 .card-list .card-item:hover .arrow  {
-    background: #000;
-    color: #fff; 
+    background: #000000;
+    color: #ffffff; 
 }
 @media (max-width: 1200px) {
     .card-list .card-item {
@@ -673,7 +549,7 @@ input[type="email"] {
 }
 input[type="submit"] {
   background-color: #3E7C59;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   border: 0;
   padding: 0.625rem 0.9375rem;
@@ -686,7 +562,7 @@ input[type="submit"] {
 .ft-social-list {
   display: flex;
   justify-content: center;
-  border-top: 1px #777 solid;
+  border-top: 1px #777777 solid;
   padding-top: 1.25rem;
 }
 .ft-social-list li {
@@ -898,17 +774,17 @@ li {
   margin-right:auto;
   display:block;
   text-align:center;
-  font-family:'Playpen Sans',cursive;'
+  font-family:'Playpen Sans',cursive;
 }
 
 
 
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #777777;
 }
 
 div.gallery .solution-images {
@@ -964,7 +840,7 @@ header {
     text-align: center;
     padding-top: 100px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-image: url("images/island.jpg"); 
     background-size: cover;
@@ -991,7 +867,7 @@ header {
 .hero-header button {
   background-color: #3E7C59;
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -1004,7 +880,7 @@ header {
 }
 
 .hero-header button a{
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1085,7 +961,7 @@ details[open] div{
     text-align: center;
     padding-top: 100px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-image: url("images/jellyfish-aboutpage.jpg"); 
     background-size: cover;
@@ -1171,7 +1047,7 @@ details[open] div{
     text-align: center;
     padding-top: 100px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-color: #3E7C59;
     position: relative;
@@ -1207,7 +1083,7 @@ details[open] div{
 .center{
   position: relative;
   text-align: center;
-  color: white;
+  color: #ffffff;
   
 }
 
@@ -1431,13 +1307,13 @@ details[open] div{
   background-color: #8FA690;
   top: -8rem;
   right: -8rem;
-  box-shadow: 2rem 6rem 0 -3rem #FFF
+  box-shadow: 2rem 6rem 0 -3rem #FFFFFF;
 }
 
 .container-profile .card img {
   width: 8rem;
   min-width: 80px;
-  box-shadow: 0 0 0 5px #FFF;
+  box-shadow: 0 0 0 5px #FFFFFF;
 }
 
 .container-profile .infos {
@@ -1461,7 +1337,7 @@ details[open] div{
 }
 .container-profile .name h4 {
   font-size: .8rem;
-  color: #333;
+  color: #333333;
 
 
 
@@ -1509,7 +1385,7 @@ details[open] div{
 .snip1568 figcaption {
   width: 100%;
   background-color: rgba(255, 255, 255, .5);
-  color: #fff;
+  color: #ffffff;
   padding: 25px;
   display: inline-block;
   margin-bottom: 15px;
@@ -1668,7 +1544,34 @@ details[open] div{
   margin-left:auto;
   margin-right:auto;
 }
-.imageGrid .tile {
+
+.tile1{
+  background-image: url('images/volunteer\ kids.jpg');
+}
+
+.tile2{
+  background-image: url('images/volunteer0.jpg');
+}
+.tile3{
+  background-image: url('images/volunteer6.jpg');
+}
+.tile4{
+  background-image: url('images/volunteer5.jpg');
+}
+
+.tile5{
+  background-image: url('images/volunteer3.jpg');
+}
+
+.tile6{
+  background-image: url('images/volunteer4.jpg');
+}
+
+
+
+
+
+.imageGrid .tile1,.tile2, .tile3 , .tile4 ,.tile5, .tile6 {
   width:33.33%;
   min-height:20em;
   line-height: 1.2;
@@ -1686,7 +1589,7 @@ details[open] div{
   cursor: hand;
 }
 
-.imageGrid .tile:before {
+.imageGrid .tile1:before, .tile2:before, .tile3:before, .tile4:before, .tile5:before, .tile6:before{
   content: '';
   background-color: rgba(15,15,15,0.5);
   display: block;
@@ -1696,11 +1599,66 @@ details[open] div{
   position: absolute;
 }
 
-.imageGrid .tile:hover:before {
+.imageGrid .tile1:hover:before, .tile2:hover:before, .tile3:hover:before, .tile4:hover:before, .tile5:hover:before,.tile6:hover:before{
   display: none;
 }
 
-.imageGrid .tile .textWrapper {
+.imageGrid .tile1 .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile2 .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile3 .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile4 .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile5 .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile6 .textWrapper {
   text-align: center;
   vertical-align: middle;
   width: 80%;
@@ -1719,18 +1677,18 @@ details[open] div{
   display: block;
 }
 
-.imageGrid .tile:hover .textWrapper .content h2 {
+.imageGrid .tile :hover .textWrapper .content h2 {
   margin: 0;
 }
 
 @media (max-width: 1000px) {
-  .imageGrid .tile {
+  .imageGrid .tile1,.tile2,.tile3,.tile4,.tile5,.tile6 {
     width: 50%;
   }
 }
 
 @media (max-width: 700px) {
-  .imageGrid .tile {
+  .imageGrid .tile1,.tile2, .tile3, .tile4 , .tile5, .tile6 {
     width: 100%;
   }
 
@@ -2019,7 +1977,7 @@ span:nth-child(8) {
     text-align: center;
     padding-top: 100px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-image: url("images/ourwork-background.jpg"); 
     background-size: cover;
@@ -2199,7 +2157,7 @@ div.gallery .solution-images-p {
   position: absolute;
   bottom: 300px;
   left: 300px;
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   background-color:#000000;
 }
@@ -2216,7 +2174,7 @@ div.gallery .solution-images-p {
   position: absolute;
   top: 10px;
   right: 15px;
-  color: white;
+  color: #ffffff;
   font-size: 35px;
   cursor: pointer;
 }
@@ -2376,6 +2334,13 @@ div.gallery .solution-images-p {
 /* Card Responsiveness*/
 
 @media screen and (max-width:1000px){
+
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  } 
+  
   .container-in .column-in{
     width:100%;
     float:left;
@@ -2772,7 +2737,60 @@ div.gallery .solution-images-p {
    .subscribe .container .section-header h2{
      font-size:25px;
    }
+   .topnav a:not(:first-child), .dropdown .dropbtn {
+     display: none;
+   }
+   .topnav a.icon {
+     float: right;
+     display: block;
+   }
 
+   .topnav a {
+     padding: 10px;
+   }
+
+   .dropdown .dropbtn {
+     padding: 10px;
+   }
+
+
+   .container-stepping{
+     background-color:#f1f1f1;
+     word-wrap: break-word;
+     height:auto;
+   }
+
+   .container-image .fancy{
+     margin-left:auto;
+     margin-right:auto;
+     width: 200px;
+     height: 200px;
+   }
+
+   .container-image .fancy2{
+     margin:auto;
+     width:300px;
+     height:auto;
+     font-size:medium;
+     border-radius:0%;
+     text-align:center;
+     word-wrap: break-word;
+     padding:1em;
+   }
+
+   .container .row .column-66 .column{
+     width: 100%;
+   }
+   .container{
+     width: 100%;
+     word-wrap: break-word;
+   }
+
+   .solutions{
+     font-size:10px;
+   }
+
+   
    
 
 
@@ -2836,21 +2854,11 @@ div.gallery .solution-images-p {
 
    }
 
-   .containter .about, .priorities, .agencies, .ourwork{
-     height:300px;
+   .containter .about, .priorities, .agencies, .ourwork, .contact,.get-involved{
+     height:250px;
    }
 
-  .containter .contact{
-    height:300px;
-  }
-
-  .containter .agencies{
-    height:300px;
-  }
-
-  .containter .get-involved{
-    height:300px;
-  }
+  
 
    .glow{
      font-size:25px;
@@ -2919,21 +2927,7 @@ div.gallery .solution-images-p {
     margin-right:auto;
   }
 
-  .containter .about, .priorities, .agencies, .ourwork{
-     height:250px;
-   }
-
-  .containter .contact{
-    height:250px;
-  }
-
-  .containter .agencies{
-    height:250px;
-  }
-    
-  .containter .get-involved{
-    height:250px;
-  }
+ 
 
   /* Contact us responsive*/
   .container-contact {
@@ -3377,7 +3371,37 @@ div.gallery .solution-images-p {
      font-size:15px;
    }
 
+  .container-image .fancy{
+    margin-left:auto;
+    margin-right:auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  .container-image .fancy2{
+    margin:auto;
+    width:300px;
+    height:auto;
+    font-size:medium;
+    border-radius:0%;
+    text-align:center;
+    word-wrap: break-word;
+    
+  }
+
+  .con-container .shade .blackboard:before{
+     content: "Contact Us";
+     font-family: 'Playpen Sans', cursive;
+     font-size: 20px;
+    padding:auto;
+    margin:auto;
+    text-align:center;
+    width:100%;
+   }
+
 }
+
+/*End of website responsiveness*/
 
 
 .column-numbers{
@@ -3416,7 +3440,7 @@ div.gallery .solution-images-p {
   position: relative;
   max-width: 430px;
   width: 100%;
-  background: #fff;
+  background: #ffffff;
   padding: 34px;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
@@ -3473,7 +3497,7 @@ form h3{
   margin-left: 10px;
 }
 .input-box.button input{
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 1px;
   border: none;
   background: #3E7C59;
@@ -3676,7 +3700,7 @@ textarea {
     text-align: center;
     padding-top: 100px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-image: url("images/location-car.jpg"); 
     background-size: cover;
@@ -3705,7 +3729,7 @@ textarea {
     width: 100%;
     text-align: center;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     background-color: #8FA690;
     position: relative;
@@ -3770,12 +3794,12 @@ textarea {
 
 .subscribe .section-header h2,
 .subscribe p {
-  color: #fff;
+  color: #ffffff;
 }
 
 .subscribe input {
-  background: #fff;
-  color: #060c22;
+  background: #ffffff;
+  color: #000000;
   border: 0;
   outline: none;
   margin: 0;
@@ -3790,7 +3814,7 @@ textarea {
   padding: 9px 25px;
   cursor: pointer;
   background: #8FA690;
-  color: #fff;
+  color: #ffffff;
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
@@ -3861,7 +3885,7 @@ video{
 .video-button{
   background-color: #3E7C59;
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -3899,7 +3923,7 @@ video{
     text-align: center;
     padding-top: -50px;
     padding:20px;
-    color: white;
+    color: #ffffff;
     overflow: visible;
     background-color: #014034;
     position: relative;
@@ -4152,6 +4176,11 @@ div.scroll-container img {
     background-position: center;
     position: relative;
 }
+
+
+
+
+
 
 
 
