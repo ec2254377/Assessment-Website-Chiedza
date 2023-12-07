@@ -3102,46 +3102,8 @@ div.gallery .solution-images-p {
     margin-right:auto;
    }
 
-}
 
-@media screen and (max-width:480px){
-
-
-  .responsive-p {
-     width: 100%;
-     margin: 6px 0;
-   }
-
-  
-
-
-  .container-stepping .row .column-66 .row1 .column .i{
-    text-align:left;
-   
-  }
-
-  .help-us .column-help{
-    width:100%;
-    padding:auto;
-    margin:auto;
-  }
-
-
-  .help-us .design  {
-      margin:auto;
-  }
-
-  .container-in .row-in .column-in .work-involved{
-    width:50%;
-    height:200px;
-    border-radius:50%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-
-  /* priorities and insights*display*/
+  /* Making the typography responsive on a mobile: The font Playen Sans is not suitable for mobile and tablet because it is cursive,instead MONTSERRAT is the best option*/
   .container-goals .goal-sub{
     font-family: 'Montserrat', sans-serif;
   }
@@ -3188,7 +3150,7 @@ div.gallery .solution-images-p {
 
   .containter h2,a{
     font-family: 'Montserrat', sans-serif;
-    
+
   }
 
   .container-membership .benefit-button span a{
@@ -3205,6 +3167,63 @@ div.gallery .solution-images-p {
 
   .help-us .column-help .design {
     font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-contact1 .values .values-intro,.values-sub,h4{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .sub-history1{
+    font-family: 'Montserrat', sans-serif;
+  }
+  #linked-form .container .sub-intro-contact{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .subscribe .container .section-header p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-agency .text-work-in .team-work2-in{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+}
+
+@media screen and (max-width:480px){
+
+
+  .responsive-p {
+     width: 100%;
+     margin: 6px 0;
+   }
+
+  
+
+
+  .container-stepping .row .column-66 .row1 .column .i{
+    text-align:left;
+   
+  }
+
+  .help-us .column-help{
+    width:100%;
+    padding:auto;
+    margin:auto;
+  }
+
+
+  .help-us .design  {
+      margin:auto;
+  }
+
+  .container-in .row-in .column-in .work-involved{
+    width:50%;
+    height:200px;
+    border-radius:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
   }
   
 
