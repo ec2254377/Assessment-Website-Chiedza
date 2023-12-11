@@ -25,7 +25,7 @@ html {
   width: 100%;
 }
 
-body{
+*{
   margin:0;
   box-sizing:border-box;
   padding:0;
@@ -443,8 +443,14 @@ hr{
     }
 }
 
+/* MAKING THE IMAGE CARDS ON HOME PAGE RESPONSIVE ABOVE*/
+
 .solutions{
   text-align:center;
+  margin:auto;
+  padding:auto;
+  width:100%;
+
 }
 
 
@@ -747,11 +753,7 @@ input[type=checkbox] {
 
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 
 a {
@@ -797,9 +799,7 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 .responsive {
   padding: 0 6px;
@@ -1244,7 +1244,7 @@ details[open] div{
 
 
 .container-profile{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playpen Sans', cursive;
   align-items: center;
   justify-content: center;
   background-color: #8FA690;
@@ -2332,6 +2332,28 @@ div.gallery .solution-images-p {
         padding: 10px;
     }
 
+  .containter .about, .priorities{
+      height:450px;
+    }
+
+   .containter .agencies{
+     height:450px;
+   }
+
+   .containter .contact{
+     height:450px;
+   }
+
+   .containter .ourwork{
+     height:450px;
+   }
+
+   .containter .get-involved{
+     height:450px;
+   }
+
+  
+
 }
 @media screen and (max-width: 980px) {
     .card-list {
@@ -2389,6 +2411,8 @@ div.gallery .solution-images-p {
       display:flex;
       justify-content: center;
     }
+
+  
  }
 
 /* On tablet*/
@@ -2793,8 +2817,32 @@ div.gallery .solution-images-p {
      word-wrap: break-word;
    }
 
-   .solutions{
-     font-size:10px;
+   .container .solutions p{
+     font-size:15px;
+     width:100%;
+     margin:auto;
+     padding:auto;
+   }
+
+   /* MAKING THE HEADING IMAGES ON ALL PAGES RESPONSIVE*/
+   .containter .about, .priorities{
+      height:300px;
+    }
+
+   .containter .agencies{
+     height:300px;
+   }
+
+   .containter .contact{
+     height:300px;
+   }
+
+   .containter .ourwork{
+     height:300px;
+   }
+
+   .containter .get-involved{
+     height:300px;
    }
 
    
@@ -2835,6 +2883,10 @@ div.gallery .solution-images-p {
     width:100%;
   }
 
+  .cotainer-goals .goal-heading .goal.sub{
+    width:100%;
+  }
+
   .column-in .work-in{
     height:300px;
     display: block;
@@ -2861,8 +2913,24 @@ div.gallery .solution-images-p {
 
    }
 
-   .containter .about, .priorities, .agencies, .ourwork, .contact,.get-involved{
-     height:250px;
+   .containter .about, .priorities{
+     height:200px;
+   }
+
+  .containter .agencies{
+     height:200px;
+   }
+
+   .containter .contact{
+     height:200px;
+   }
+
+   .containter .ourwork{
+     height:200px;
+   }
+
+   .containter .get-involved{
+     height:200px;
    }
 
   
@@ -3042,6 +3110,24 @@ div.gallery .solution-images-p {
     height:300px;
   }
 
+  #linked-goals .container-goals .goal-sub{
+    width:100%;
+
+  }
+
+  #linked-goals .container-goals .goal-heading{
+    width:100%; 
+  }
+  #linked-goals  .column-goal .text-work1 .team-work-p{
+    font-size:22px;
+
+  }
+
+  #linked-goals  .column-goal .text-work1 .team-work-heading{
+    font-size:13px;
+  }
+
+
  
 
  
@@ -3187,6 +3273,37 @@ div.gallery .solution-images-p {
   .container-agency .text-work-in .team-work2-in{
     font-family: 'Montserrat', sans-serif;
   }
+
+  .container5 h1{
+    font-size:25px;
+    width:70%;
+    text-align:left;
+    padding: auto;
+    margin: auto;
+
+  }
+
+  .container5 h3{
+    font-size:20px;
+    width:70%;
+    margin:auto;
+    padding:auto;
+    text-align:left;
+  }
+
+  .container5 details{
+    font-size:18px;
+    width:80%;
+    margin:auto;
+    padding:auto;
+    text-align:left;
+  }
+
+  .container5 details a{
+    font-size:18px;
+  }
+
+
 
 }
 
@@ -3406,6 +3523,8 @@ div.gallery .solution-images-p {
 
     .help-us .design  {
       margin:auto;
+      width:500px;
+      height:auto;
     }
 
   .container-in .row-in .column-in .work-involved{
@@ -3509,6 +3628,56 @@ div.gallery .solution-images-p {
     text-align:center;
     width:100%;
    }
+
+
+  /* MAKING THE CARD LIST ON THE HOME PAGE RESPONSIVE*/
+  .card-list{
+    justify-content: center;
+    text-align:left;
+  }
+
+  .container .card-item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+  }
+
+  .container .solutions p{
+    font-size:15px;
+    width:100%;
+    margin:auto;
+    padding:auto;
+  }
+
+  .container .responsive .solution-images{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:auto;
+    text-align:center;
+   
+  }
+
+  #linked-goals .container-goals .goal-sub{
+    width:100%;
+   
+  }
+
+  #linked-goals .container-goals .goal-heading{
+    width:100%; 
+  }
+
+  #linked-goals  .column-goal .text-work1 .team-work-p{
+    font-size:22px;
+    
+  }
+
+  #linked-goals  .column-goal .text-work1 .team-work-heading{
+    font-size:13px;
+  }
+
+
+
+  
 
 }
 
